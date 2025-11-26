@@ -27,8 +27,8 @@ int main() {
         break;
     }
 
-    printf("asinh       : %.12f\n", log(x + sqrt(1.0 + x * x)));
-    printf("Arshin series: %.12f  (N=%d)\n", ArshinFunc(x, k), k);
+    printf("asinh       : %.15f\n", log(x + sqrt(1.0 + x * x)));
+    printf("Arshin series: %.15f  (N=%d)\n", ArshinFunc(x, k), k);
 
     return 0;
 }
